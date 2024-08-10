@@ -4,4 +4,8 @@ A pretrained Resnet50 convolutional model was used to extract 2048 key photograp
 
 ![flower](https://github.com/user-attachments/assets/234f9c23-7c15-4ef0-ac68-17d54791efb9)
 
+To run the prediction pipeline, simply download predict.py and run the file in a terminal or PowerShell window.
+Enter 'G', 'B', or 'N' based on the desired tuning method (G for Grid search, B for Bayesian search, or N for no tuning - fastest).
+This is the only required input; final predictions will be saved as a .csv file.
+
 See report.pdf for a full breakdown of the project.
